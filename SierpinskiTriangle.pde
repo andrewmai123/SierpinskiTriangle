@@ -26,7 +26,7 @@ public void sierpinski(int x, int y, int len)
 	{
 
 		fill((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
-		strokeWeight((int)(Math.random()*7));
+		strokeWeight((int)(Math.random()*6));
 		stroke(255);
 		sierpinski( x,  y, len/2) ;
 		sierpinski( x+len/2,  y, len/2) ;
